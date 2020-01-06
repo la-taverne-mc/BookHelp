@@ -1,0 +1,15 @@
+api: none
+api-version: "1.14"
+name: BookHelp
+version: "1.0"
+author: PoC4
+main: fr.neolithic.bookhelp.Main
+commands:
+  help:
+    description: book help
+    permission: bhelp.use
+    default: true
+  helpset:
+    description: book help set book
+    permission: bhelp.set
+    default: op
